@@ -12,11 +12,16 @@ The ultimate result should be a bmp file which can be printed or used in computa
 
 A detailed explanation is given in *inserte cita chida*
 
+## Requirements
+
+- Python 3.8 or newer
+- 
+
 ## How to use
 
 ### Subimages generation using Blender
 
-To generate the subimages prepare a centered scene in Blender (It's highly reccomendable to center the scene since the program was built that way). Then in the **Scripting** tab use the code from *SubimageGeneration.py* and run it. An important thing is to coincide the name of the variable *current_object* with the object name in Blender. This program normally works with only one object (as seen in the [Example](url)) but if desired make sure you choose one specific object which the camera will follow and make that object part in blender coincide with the name of the variable *current_object*.
+To generate the subimages prepare a centered scene in Blender (It's highly reccomendable to center the scene since the program was built that way). Then in the **Scripting** tab use the code from *SubimageGeneration.py* and run it. An important thing is to coincide the name of the variable *current_object* with the object name in Blender. This program normally works with only one object (as seen in the [Example](https://github.com/ComfyBear41/Test-holograms/edit/main/README.md#example)) but if desired make sure you choose one specific object which the camera will follow and make that object part in blender coincide with the name of the variable *current_object*.
 
 Normally, we would import stl files to the scene and generate de subimages. That being said all directories must be changed according to the user and if everything is being generated within Blender 
 
@@ -24,6 +29,13 @@ Normally, we would import stl files to the scene and generate de subimages. That
 
 ### Hologram generation from the subimages
 
+como jala
+que se le puede cambiar
+notas adicionales
+
 
 ### Binary hologram generation
+
+
+## Example
 
