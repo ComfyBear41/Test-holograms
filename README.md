@@ -12,11 +12,6 @@ The ultimate result should be a bmp file which can be printed or used in computa
 
 A detailed explanation is given in *inserte cita chida*
 
-## Requirements
-
-- Python 3.8 or newer
-- 
-
 ## How to use
 
 ### Subimages generation using Blender
