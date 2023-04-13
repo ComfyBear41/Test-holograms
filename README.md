@@ -31,6 +31,9 @@ notas adicionales
 
 ### Binary hologram generation
 
+como jala
+que se le puede cambiar
+notas adicionales
 
 ## Example
 
