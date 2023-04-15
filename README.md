@@ -44,17 +44,8 @@ Once the subimages are generated, the user must compile the file *mainHogelGener
 - *crop_percentage* : A percentage to crop each subimage from the edges where 0 represents 0% croping the edges and 1 croping 100% of the image. Value
     of 1 for this parameter is won't do anything to the hogel. Change this parameter at your own discretion depending on the subimages.
     
-
-como jala
-que se le puede cambiar
-notas adicionales
-
-
 ### Binary hologram generation
 
-como jala
-que se le puede cambiar
-notas adicionales
 
 ## Example
 
