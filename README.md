@@ -33,12 +33,16 @@ Normally, we would import **stl files** to the scene and generate the subimages.
 - *max_abs_azimut* : Maximum angle that will be spaned horzintonally (by default its set at 48°)
 - *max_abs_polar* : Maximum angle that will be spaned vertically (by default its set at 24°)
 
-**NOTE:** The script from the aforementioned file can be used as a base program and can be modified at the users desire. The important thing is to capture the desired object from different ordered perspectives. 
+**NOTE 1:** The script from the aforementioned file can be used as a base program and can be modified at the users desire. The important thing is to capture the desired object from different ordered perspectives. 
+
+**NOTE 2:** The program is build to have certain order of the directories and name the subimages if changed, be aware that the results may lead to errors in the compilation.
 
 ### Hogel generation from the subimages
 
 Once the subimages are generated, the user must compile the file *mainHogelGeneration.py* which will calculate the hogels for each perspective and return an *npy file* with the information of all the hogels stacked in order of perspective in a single matrix. The variables that the user may want to change are: 
 
+- *directory0* : Directory to the subimages generated.
+- *dir_transfer* : Directory where the *npy files* will be saved.
 - *scale* : Scaling factor for the perpesctive of the scene within a single hogel (by default its set to 0.3 that gave us the best results). The user can input several scaling factors in a vector to obtain different results.
 - *N_cicles* : Number of cycles that the algorithm to generate the hogel will use (by default its set to 500 which guarantees convergence).
 - *crop_percentage* : A percentage to crop each subimage from the edges where 0 represents 0% croping the edges and 1 croping 100% of the image. Value
