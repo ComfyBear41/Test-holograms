@@ -26,7 +26,7 @@ If these do not coincide in all the files, it may cause errors when compiling th
 
 ### Subimages generation using Blender
 
-To generate the subimages prepare a centered scene in Blender (It's highly reccomendable to center the scene since the program was built that way). Then in the **Scripting** tab use the code from *SubimageGeneration.py* and run it. An important thing is to coincide the name of the variable *current_object* with the object name in Blender. This program normally works with only one object (as seen in the [Example](https://github.com/ComfyBear41/Test-holograms/edit/main/README.md#example)) but if desired make sure you choose one specific object which the camera will follow and make that object part in blender coincide with the name of the variable *current_object*.
+To generate the subimages prepare a centered scene in Blender (It's highly reccomendable to center the scene since the program was built that way). Then in the **Scripting** tab use the code from *SubimageGeneration.py* and run it. An important thing is to coincide the name of the variable *current_object* with the object name in Blender. This program normally works with only one object (as seen in the [Example](https://github.com/ComfyBear41/Test-holograms#example)) but if desired make sure you choose one specific object which the camera will follow and make that object part in blender coincide with the name of the variable *current_object*.
 
 Normally, we would import **stl files** to the scene and generate the subimages. That being said all directories must be changed according to the user and if everything is being generated within Blender some parts of the code may be commented and compiled as usual. One variable that the user may want to change is:
 
