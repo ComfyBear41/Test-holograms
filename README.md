@@ -70,9 +70,17 @@ When working with high resolutions you may notice that the size of the *npy file
 
 ![photo](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step1.png)
 
+![photo1](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step1_1.png)
+
 ### Hogel generation from the subimages
 
+![photo2](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step2.png)
+
 ### Binary hologram generation
+
+![photo3](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step3.png)
+
+![photo4](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Reconstruction.png)
 
 
 
