@@ -66,3 +66,13 @@ When working with high resolutions you may notice that the size of the *npy file
 
 ## Example
 
+### Subimages generation using Blender
+
+![photo](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step1.png)
+
+### Hogel generation from the subimages
+
+### Binary hologram generation
+
+
+
