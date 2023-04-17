@@ -14,7 +14,7 @@ A detailed explanation is given in *inserte cita chida*
 
 ## How to use
 
-Make sure you download all the files,especially the file *BinaryStereograhpicHologramFunctions.py* which contains all the important functions for the hologram generation. Also check all the requirements mentioned in *requirements.txt* to avoid having troubles when running the file codes.
+Make sure you download all the files,especially the file *BinaryStereograhpicHologramFunctions.py* which contains all the important functions for the hologram generation. Also check all the requirements mentioned in *requirements.txt* to avoid having troubles when running the file codes. Also make sure to verify [set up the directories]() correctly
 
 The variables the user must be careful when using all the different file codes are:
 - *N_in* : Number of inches.
@@ -23,6 +23,8 @@ The variables the user must be careful when using all the different file codes a
 - *N_proj_j* : Number of horizontal projections.
 
 If these do not coincide in all the files, it may cause errors when compiling the codes. There are some other variables that the user may play around at their own discretion to obtain different results.
+
+### Setting up the directories
 
 ### Subimages generation using Blender
 
@@ -66,21 +68,39 @@ When working with high resolutions you may notice that the size of the *npy file
 
 ## Example
 
+The following is an brief example of the steps mentioned above showing what you would expect when using this code. In this case both codes and output files will be provided in this project.
+
 ### Subimages generation using Blender
 
+In the file *Subimages.blend* there is already avilable an example of how an scene may look like for the case of a lego block. The only thing remaining to use this file is to make sure about the directories and press run while being in the **Scripting* tab. You should see something similar to the image below.
+
 ![photo](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step1.png)
+
+Once the programm finiches generating the different subimages you should end up with a folder with files as in the following image where it's clearly indicated the order of each subimage.
 
 ![photo1](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step1_1.png)
 
 ### Hogel generation from the subimages
 
+Once you have an folder with all the subimages, and making sure about the directories where you want to have the hogels generated, run the file *mainHogelGeneration.npy* and you should end up with *npy files* similar to the ones in the image below.
+
 ![photo2](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step2.png)
+
+In this case, the program used different scales and hence the three files. But it'will depend purely in the number of cases you test.
 
 ### Binary hologram generation
 
+Finally, the only thing remaining is to generate the holograms using the hogels generated with the code in the file *mainBinaryHologram.py*, for this, making sure again about the directories, and the other variables mentioned you should end up with and *bmp file*. That is your binary hologram! and that's ready to print. It not seem completely binary but this its probably because of the resolution of your screen. In the following image you can see and example of what you can expect and a zoom out of a portion. This bmp file will be provided too.  
+
 ![photo3](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step3.png)
 
+For this example, as mentioned before, we have certain values of resolution, size, projections and hence the angles of deviation from optical axis. Hence that the program is already prepared to generate the hologram, but this may not be the case for other resolutions values. One can confirm that the angle values will work by testing it with the commented code provided in the same file. You should end up with a result like the following image.
+
 ![photo4](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Reconstruction.png)
+
+You know that the angles that you chose will propably work when you see a result like this. Two symmetric diffraction orders that are not near the center and not close to the borders of the image.
+
+**NOTE:** To run this example from scratch may take a few hours to compile all three steps of the process, and since it's a high resolution plotting the results and making tests may be heavy for the computer. 
 
 
 
