@@ -78,7 +78,7 @@ When working with high resolutions you may notice that the size of the *npy file
 
 ## Example
 
-The following is an brief example of the steps mentioned above showing what you would expect when using this code. In this case both codes and output files will be provided in this project.
+The following is an brief example of the steps mentioned above showing what you would expect when using this code. In this case both codes and output files will be provided in this project. The resolution used for this example is 3600 dpi, with 3x8 projections and 5 inches of maximum size.
 
 ### Subimages generation using Blender
 
