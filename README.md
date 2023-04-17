@@ -14,7 +14,7 @@ A detailed explanation is given in *inserte cita chida*
 
 ## How to use
 
-Make sure you download all the files,especially the file *BinaryStereograhpicHologramFunctions.py* which contains all the important functions for the hologram generation. Also check all the requirements mentioned in *requirements.txt* to avoid having troubles when running the file codes. Also make sure to verify [set up the directories]() correctly
+Make sure you download all the files,especially the file *BinaryStereograhpicHologramFunctions.py* which contains all the important functions for the hologram generation. Also check all the requirements mentioned in *requirements.txt* to avoid having troubles when running the file codes. Also make sure to verify [set up the directories](https://github.com/ComfyBear41/Test-holograms###Setting up the directories) correctly.
 
 The variables the user must be careful when using all the different file codes are:
 - *N_in* : Number of inches.
