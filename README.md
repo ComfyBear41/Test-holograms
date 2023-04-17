@@ -40,7 +40,7 @@ Having your folders organized in this way or equivalent should not give you any 
 
 To generate the subimages prepare a centered scene in Blender (It's highly reccomendable to center the scene since the program was built that way). Then in the **Scripting** tab use the code from *SubimageGeneration.py* and run it. An important thing is to coincide the name of the variable *current_object* with the object name in Blender. This program normally works with only one object (as seen in the [Example](https://github.com/ComfyBear41/Test-holograms#example)) but if desired make sure you choose one specific object which the camera will follow and make that object part in blender coincide with the name of the variable *current_object*.
 
-Normally, we would import **stl files** to the scene and generate the subimages. That being said all directories must be changed according to the user and if everything is being generated within Blender some parts of the code may be commented and compiled as usual. One variable that the user may want to change is:
+Normally, we would import **stl files** to the scene and generate the subimages. That being said all directories must be changed according to the user and if everything is being generated within Blender some parts of the code may be commented and compiled as usual. The variables that you may want to change are:
 
 - *max_abs_azimut* : Maximum angle that will be spaned horzintonally (by default its set at 48°)
 - *max_abs_polar* : Maximum angle that will be spaned vertically (by default its set at 24°)
@@ -51,7 +51,7 @@ Normally, we would import **stl files** to the scene and generate the subimages.
 
 ### Hogel generation from the subimages
 
-Once the subimages are generated, the user must compile the file *mainHogelGeneration.py* which will calculate the hogels for each perspective and return an *npy file* with the information of all the hogels stacked in order of perspective in a single matrix. The variables that the user may want to change are: 
+Once the subimages are generated, you must compile the file *mainHogelGeneration.py* which will calculate the hogels for each perspective and return an *npy file* with the information of all the hogels stacked in order of perspective in a single matrix. The variables that the you may want to change are: 
 
 - *directorySubimages* : Directory to the subimages generated.
 - *directoryTransfer* : Directory where the *npy files* will be saved.
@@ -96,7 +96,7 @@ Once you have an folder with all the subimages, and making sure about the direct
 
 ![photo2](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step2.png)
 
-In this case, the program used different scales and hence the three files. But it'will depend purely in the number of cases you test.
+In this case, the program used different scales and hence the three files. But it will depend purely in the number of cases you test.
 
 ### Binary hologram generation
 
