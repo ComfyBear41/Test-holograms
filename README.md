@@ -78,7 +78,7 @@ When working with high resolutions you may notice that the size of the *NPY file
 
 ## Example
 
-The following is a brief example of the steps mentioned above showing what you would expect when using this code. In this case, both codes and output files will be provided in this project (see the section [External links]). The resolution used for this example is 3600 dpi, with 3x8 projections and 5 inches of maximum size.
+The following is a brief example of the steps mentioned above showing what you would expect when using this code. In this case, both codes and output files will be provided in this project (see the section [External links](https://github.com/ComfyBear41/Test-holograms/tree/main#external-links)). The resolution used for this example is 3600 dpi, with 3x8 projections and 5 inches of maximum size.
 
 ### Subimages generation using Blender
 
