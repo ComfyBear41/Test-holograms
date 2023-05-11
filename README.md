@@ -78,11 +78,11 @@ When working with high resolutions you may notice that the size of the *NPY file
 
 ## Example
 
-The following is a brief example of the steps mentioned above showing what you would expect when using this code. In this case, both codes and output files will be provided in this project. The resolution used for this example is 3600 dpi, with 3x8 projections and 5 inches of maximum size.
+The following is a brief example of the steps mentioned above showing what you would expect when using this code. In this case, both codes and output files will be provided in this project (see the section [External links]). The resolution used for this example is 3600 dpi, with 3x8 projections and 5 inches of maximum size.
 
 ### Subimages generation using Blender
 
-In the file *Subimages.blend* there is already available an example of how a scene may look like for the case of a Lego block. The only thing remaining to use this file is to make sure about the directories and press run while in the **Scripting* tab. You should see something similar to the image below.
+In the file *Subimages.blend* there is already available an example of how a scene may look like for the case of a Lego block. The only thing remaining to use this file is to make sure about the directories and press run while in the **Scripting** tab. You should see something similar to the image below.
 
 ![photo](https://github.com/ComfyBear41/Test-holograms/blob/main/Example/Photos/Step1.png)
 
@@ -111,5 +111,9 @@ For this example, as mentioned before, we have certain values of the resolution,
 You know that the angles that you chose will probably work when you see a result like this. Two symmetric diffraction orders that are not near the center and not close to the borders of the image.
 
 **NOTE:** To run this example from scratch may take a few hours to compile all three steps of the process, and since it's a high resolution plotting the results and making tests may be heavy for the computer. 
+
+## External links
+
+The following link goes to a Google Drive folder with an example of the setup of the directories including the *STL* file, sub-images, hogels and holograms generated using the codes provided in this repository. [Google Drive](https://drive.google.com/drive/folders/1_mC-mfuUXzZXMiSrbUCbWiAJvVKam6Wk?usp=share_link)
 
 
